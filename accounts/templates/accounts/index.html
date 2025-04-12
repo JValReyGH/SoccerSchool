@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block local_css %}
+    <link rel="stylesheet" href="{% static 'accounts/css/accounts.css' %}">
+{% endblock %}
+
+{% block content %}
+<h1>Welcome to the Soccer School</h1>
+<p>This is the index page for the accounts app.</p>
+{% endblock %}
+{% block local_js %}
+    <script src="{% static 'accounts/js/accounts.js' %}"></script>
+{% endblock %}
+
+{% block extra_js %}
+    <script>
+        // You can add any additional JavaScript here
+        console.log("Welcome to the Soccer School!");
+    </script>
+{% endblock %} 

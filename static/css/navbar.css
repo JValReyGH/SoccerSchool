@@ -1,0 +1,14 @@
+.navbar {
+  background-image: linear-gradient(to bottom right, steelblue, #95b6e7);
+}
+
+.navbar-brand:hover {
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: none;
+  transition: size 2.5s ease-in;
+  font-size: 1.05rem;
+  color: #fff;
+}
